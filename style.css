@@ -1,10 +1,15 @@
 body {
+
+
+    background: linear-gradient(#00FBFF 9%, #80007F 200%);
     margin: 0;
     padding-top: 800px;
     text-align: center;
 }
 
 .profile {
+    width: 175px;
+    margin-bottom: 50px;
     border-radius: 50%;
 
 }
@@ -12,9 +17,14 @@ body {
 #welcome {
 
     position: absolute;
-    color: #FFFFFF;
+    height: 800px;
+    color: black;
+    left: 0;
+    top: 0;
     bottom: 0;
-    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#00FBFF 9%, #80007F 200%);
     display: table;
     width: 100%;
     height: 100%;
@@ -42,11 +52,11 @@ h1 {
 h2 {
     font-size: 30px;
     font-weight: 300;
+    line-height: 1.2;
     font-family: monospace;
 }
 
 #bio {
-    font-family: 'Cinzel Decorative', cursive;
 
     padding: 50px;
     text-align: center;
@@ -61,7 +71,10 @@ h2 {
 
 
 p {
+    max-width: 450px;
+    margin: 25px auto;
     font-size: 17px;
+    line-height: 1.3;
 }
 
 .parallax-inner {
@@ -73,72 +86,47 @@ p {
 
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-.article:hover {
-    color: fuchsia;
-}
 
 .menu {
+    list-style: none;
     position: fixed;
-    background: yellow;
-    width: 100%;
-    margin-top: 0px;
-    top: 0px;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
     z-index: 10;
-
 
 }
 
+
+
 .links {
-    display: inline;
-    padding-left: 33px;
-    padding-right: 25px;
-    font-family: cursive;
+    float: left;
+    color: aliceblue;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
     font-size: 20px;
 
 }
 
 .links:hover {
-    font-size: 20px;
-    text-decoration: underline;
+    background-color: black;
+}
 
+html {
+    scroll-behavior: smooth;
 }
 
 a {
-    text-decoration: none;
-    color: crimson;
-    text-shadow: 2px 2px gainsboro;
+    text-decoration: underline;
+    color: greenyellow;
+    background-color: black;
 }
+
 
 .article:hover {
-    color: fuchsia;
+    color: aliceblue;
 }
 
-#writings a {
-    text-shadow: 1px !important text-decoration: underline !important; 
-    color: blue !important;
-}
-
-#contact {
-    background: firebrick;
-}
-
-#contact iframe {
-    width: 100%;
-}
-
-.contact_1 h3 {
-    display: inline;
-}
-
-.contact_1 a {
-    color: white;
-    text-shadow: none;
-}
-
-
-
-}
